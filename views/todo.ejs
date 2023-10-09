@@ -77,8 +77,8 @@
         <% todolist.forEach(function(todo, index) { %>
         <li>
             <span><%- todo %></span>
-            <a href="/todo/delete/<%= index %>">Delete</a>
-            <a href="/todo/<%= index %>">Edit</a>
+            <li><a href="/todo/delete/<%= index %>">Delete</a></li>
+            <li><a href="/todo/<%= index %>">Edit</a></li>
         </li>
         <% }); %>
     </ul>
